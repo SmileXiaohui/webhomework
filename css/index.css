@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style:none; 
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+body{
+    background:rgb(255, 181, 233)
+}
+.header {
+    height:80px;
+    width:100%;
+    background:rgb(240, 92, 171);
+    border-bottom: 1px solid cornsilk;
+}
+.nav-box{
+    max-width: 1200px;
+    margin:0 auto;
+    display:flex;
+    height: 40px;
+    padding-top:20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size:30px;
+    color:black;
+}
+.nav-box.nav{
+    display: flex;
+    font-size:16px;
+    color:dimgray;
+}
+.nav-box.nav li{
+    padding-left:40px;
+
+}
+.nav-box.nav a.on,
+.nav-box .nav a:hover {
+    color:black;
+    padding-bottom:10px;
+    border-bottom: 2px solid #333;
+}
+.banner{
+    width:1200px;
+    margin:0 auto;
+    background: url(https://c-ssl.duitang.com/uploads/item/202009/28/20200928195419_hEjX3.jpeg) no-repeat 
+    center center;
+    height:512px;
+    text-align: center;
+    line-height: 312px;
+    color:rgb(6, 3, 3);
+    font-size:80px;
+    font-weight: bold;
+}
+.introduce{
+    width: 1200px;
+    margin:0 auto;
+    padding:20px 0;
+}
+.introduce .l{
+    margin-right:20px;
+}
